@@ -1,0 +1,35 @@
+{
+    "AS_Button_d49307f392cd4ffa93992764af657686": {
+        "id": "AS_Button_d49307f392cd4ffa93992764af657686",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e75f1ab4f5714343b25820acdf815be2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SHOW_ALERT_idb1e3963d214457bb783de444d950c4",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_CONFIRMATION",
+            "alertTitle": null,
+            "yesLabel": null,
+            "noLabel": null,
+            "alertIcon": null,
+            "alertMessage": "Hello World!",
+            "messageType": "constant",
+            "alertHandler": null,
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }]
+    }
+}
